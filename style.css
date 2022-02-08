@@ -1,20 +1,19 @@
 body { 
 	font-family: Arial;
-	text-align: center;
 }
 
 img {
 	max-width:100%;
 }
 
-svg{
-	max-width:100% ;
-}
-
 ul{
 	list-style: inside
 }
 
+.title{
+	
+	text-align: center;
+}
 
 .flex-container{
 	display:  flex;
@@ -32,18 +31,19 @@ ul{
 
 .description{
 
-	padding: 5px;
+	padding: 10px;
 }
 
 
 .line-of-shapes{
+
+	padding: 30px;
 	display:  flex;
 	justify-content: center;
 }
 
 .shape{
 
-	max-width:100;
 	margin: 5px;
 	flex-shrink: 1;
 	flex-grow: 1 ;
@@ -66,4 +66,7 @@ ul{
 	fill: #33ffbb ;
 }
 
-
+#acknowledgements {
+	
+	text-align: center;
+}
